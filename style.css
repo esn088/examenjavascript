@@ -1,0 +1,66 @@
+.container{
+    background-color: #f2f2f2;
+}
+.app{
+    background-color:  #f2f2f2;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+@media (min-width: 1200px)
+.container {
+    width: 900px;
+}
+#app{
+    background-color: #655c5c;
+}
+.modal-content{
+        display: grid;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: -webkit-center;
+}
+.modal-footer {
+        display: flex;
+    flex-direction: row-reverse;
+}
+.modaltd{
+        font-size: larger;
+    text-align: left;
+}
+.modaltd2{
+        
+    text-align: right;
+}
+tr{
+        padding: 0;
+    font-style: italic;
+    font-size: smaller;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    font-family: cursive;
+    font-weight: 500;
+       
+    text-align: inherit;
+}
+.table>tbody>tr>td{
+      padding: 0px;
+    line-height: 1.42857143;
+       vertical-align: middle;
+    /* border-top: 1px solid #ddd; */
+}
+.btn {
+    display: grid;}
+.modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+    font-size: x-large;
+}

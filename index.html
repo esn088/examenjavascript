@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Game</title>
+    <meta charset="utf-8">
+    <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">-->
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <!--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="container">
+            <div class="title">
+                <h1> My TeamMates</h1>
+            </div>
+            <div class="table">
+                <table class="table table-striped">
+                    <tr>
+
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Role</th>
+                        <th>Team</th>
+                        <th>Seniority</th>
+                        <th>More Info</th>
+                    </tr>
+
+                    <tr v-for="element in datateam">
+                        <td>{{element.name }}</td>
+                        <td>{{element.age}}</td>
+                        <td>{{element.role}}</td>
+                        <td>{{element.team}}</td>
+                        <td>{{element.seniority}}</td>
+                        <td><input type="submit" value="+ info" id="login1" data-toggle="modal" data-target="#exampleModalCenter" @click="modal(element.name)">
+
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">{{name}}</h5>
+                            <!--                                <h5 class="modal-title" id="exampleModalLabel">{{element['contact_info'].email}}</h5>-->
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img :src="photo">
+                        </div>
+                        <div class="modal-body">
+                            <table id="mimodal">
+                                <tr>
+                                    <td class="modaltd">nickname </td>
+                                    <td class="modaltd2">{{nickname}}</td>
+                                </tr>
+                                <tr>
+                                    <td class="modaltd">phone </td>
+                                    <td class="modaltd2">{{phone}}</td>
+                                </tr>
+                                <tr>
+                                    <td class="modaltd">site </td>
+                                    <td class="modaltd2"> {{site}}</td>
+                                </tr>
+                                <tr>
+                                    <td class="modaltd">contact</td>
+                                    <td class="modaltd2" ><div v-if="email!='null'"><a :href="'mailto:'+email+'?cc=micaelalizcano@ubiqum.com&subject=ubiqum code academy'"><input type="submit" value="Email" id="boton_email" @click=""></a></div><div v-if="email=='null'"><p>not have mail</p></div></td>
+                                </tr>
+                                <!--href="mailto:email?cc=micaelalizcano@ubiqum.com&subject=ubiqum code academy-->
+                            </table>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js"></script>-->
+
+    <script src="main.js"></script>
+</body>
+
+</html>

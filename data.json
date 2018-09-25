@@ -1,0 +1,232 @@
+{
+    "teamsjob":[
+        {
+
+            "name": "Esneider sanchez",
+            "age": "30",
+            "role": "Director general",
+            "team": "Dark",
+            "seniority": "3",
+            "contact_info": {
+                "photo": "https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-1/p160x160/33852498_10204736672974147_4328495971081125888_n.jpg?_nc_cat=103&oh=2043e753ad0887bebfdab1a14122515b&oe=5C5B7308",
+                "nickname": "big boss",
+                "phone": "658-211-525",
+                "site": "www.bigboss.com",
+                "email": "esn088@gmail.com"
+            }
+      },
+                {
+
+            "name": "sharlin tatiana",
+            "age": "25",
+            "role": "psicologa",
+            "team": "Dark",
+            "seniority": "2",
+            "contact_info": {
+                "photo": "https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-1/c27.0.160.160/p160x160/10404382_61015167235945_4734047992631461981_n.jpg?_nc_cat=101&oh=025a390671baeb6b475bf87e1aa8c3bf&oe=5C2B9D96",
+                "nickname": "psiquic",
+                "phone": "677-881-555",
+                "site": "www.sharlin.com",
+                "email": "sharlintatiana@gmail.com"
+            }
+      },
+                        {
+
+            "name": "oscar rueda",
+            "age": "28",
+            "role": "teamlider",
+            "team": "red",
+            "seniority": "2",
+            "contact_info": {
+                "photo": "https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-1/p160x160/36963951_170659503801626_6056751262932664320_n.jpg?_nc_cat=100&oh=cac4d3b246a19d8da7b69392797c4303&oe=5C1ABFF1",
+                "nickname": "fornyte",
+                "phone": "687-991-000",
+                "site": "www.oscarrueda.com",
+                "email": "oscarrueda@gmail.com"
+            }
+      },
+                        {
+
+            "name": "maria kempes",
+            "age": "25",
+            "role": "teamlider",
+            "team": "blue",
+            "seniority": "2",
+            "contact_info": {
+                "photo": "https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-1/p160x160/41416308_10156648166963899_4681170759551287296_n.jpg?_nc_cat=103&oh=6dd0f822d4a88218a8cf95bd66c7cd6d&oe=5C1C1427",
+                "nickname": "mr malaga",
+                "phone": "670-444-000",
+                "site": "www.mariakempes.com",
+                "email": "null"
+            }
+      },
+                                {
+
+            "name": "victor zapata",
+            "age": "33",
+            "role": "teamlider",
+            "team": "white",
+            "seniority": "2",
+            "contact_info": {
+                "photo": "https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-1/p160x160/38182018_1920981944591156_8970021420826361856_n.jpg?_nc_cat=107&oh=f027cef32fc2f1df1d41b25e40c98d66&oe=5C5AB9BC",
+                "nickname": "MR black",
+                "phone": "670-789-325",
+                "site": "www.victorzapata.com",
+                "email": "victorzapata@gmail.com"
+            }
+      },
+                                {
+
+            "name": "alberto kempes",
+            "age": "25",
+            "role": "teamlider",
+            "team": "blue",
+            "seniority": "2",
+            "contact_info": {
+                "photo": "https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-1/p160x160/22519296_10155653807499566_4314536826036191663_n.jpg?_nc_cat=104&oh=57aadcc0ac8f3647eb328c60901b7478&oe=5C5F550A",
+                "nickname": "mr malaga",
+                "phone": "670-025-325",
+                "site": "www.albertokempes.com",
+                "email": "albertokempes@gmail.com"
+            }
+      },
+                                        {
+
+            "name": "cristiano ronaldo",
+            "age": "33",
+            "role": "manager executive",
+            "team": "blue",
+            "seniority": "2",
+            "contact_info": {
+                "photo": "https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-1/p200x200/27657581_10156187287847164_665747461774675239_n.jpg?_nc_cat=1&oh=7e492269decabf0d1ef1ccb74641bceb&oe=5C5A00B0",
+                "nickname": "mr cr7",
+                "phone": "670-004-007",
+                "site": "www.albertokempes.com",
+                "email": "cristianoronaldo@gmail.com"
+            }
+      },
+                                                {
+
+            "name": "karim benzena",
+            "age": "33",
+            "role": "manager executive",
+            "team": "red",
+            "seniority": "2",
+            "contact_info": {
+                "photo": "https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-1/p200x200/40530829_1897798806978223_5929529383822819328_n.jpg?_nc_cat=1&oh=9dceb4dd49cf71e1c0fbdb1203e2eeb5&oe=5C30BD65",
+                "nickname": "el gato karim",
+                "phone": "670-994-007",
+                "site": "www.karimbenzema.com",
+                "email": "karimbenzema@gmail.com"
+            }
+      },
+                                                       {
+
+            "name": "ronaldo nazario",
+            "age": "38",
+            "role": "manager executive",
+            "team": "black",
+            "seniority": "5",
+            "contact_info": {
+                "photo": "https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-1/c90.44.555.555/s160x160/420403_124983687629879_2065408074_n.jpg?_nc_cat=108&oh=97b8da678a83386f1e3be5a8ea78feb2&oe=5C2E8732",
+                "nickname": "el fenomeno",
+                "phone": "670-444-007",
+                "site": "www.ronaldonazario.com",
+                "email": "ronaldonazario@gmail.com"
+            }
+      },
+                                                               {
+
+            "name": "james rodriguez",
+            "age": "38",
+            "role": "design web",
+            "team": "black",
+            "seniority": "5",
+            "contact_info": {
+                "photo": "https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-1/c28.0.160.160/p160x160/40038_102549576469453_1684308_n.jpg?_nc_cat=110&oh=0a44a0046683c20a97752afe017789d8&oe=5C1BC710",
+                "nickname": "desing boss",
+                "phone": "690-014-007",
+                "site": "www.jamesrodriguez.com",
+                "email": "jamesrodriguez@gmail.com"
+            }
+      },
+                                                             {
+
+            "name": "gabriel delgado",
+            "age": "28",
+            "role": "developer web",
+            "team": "black",
+            "seniority": "3",
+            "contact_info": {
+                "photo": "https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-1/c1.0.160.160/p160x160/35476032_10215898603354169_723111628941295616_n.jpg?_nc_cat=101&oh=2fcc8246cf7b6061f545acc57d850105&oe=5C1ACC82",
+                "nickname": "desing brother",
+                "phone": "666-664-007",
+                "site": "www.gabrieldelgado.com",
+                "email": "gabrieldelgado@gmail.com"
+            }
+      },      
+        
+                                                                {
+
+            "name": "jhon alvarez",
+            "age": "28",
+            "role": "developer web",
+            "team": "black",
+            "seniority": "3",
+            "contact_info": {
+                "photo": "https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-1/c0.0.160.160/p200x200/10268681_10205373750643995_5990248470883283875_n.jpg?_nc_cat=104&oh=80cdf407e2f453af457e514bd69db4e1&oe=5C1AD472",
+                "nickname": "desing rock",
+                "phone": "670-444-007",
+                "site": "www.jhonalvares.com",
+                "email": "jhonalvares@gmail.com"
+            }
+      },      
+                                                                    {
+
+            "name": "mariano gonzales",
+            "age": "28",
+            "role": "developer java",
+            "team": "white",
+            "seniority": "3",
+            "contact_info": {
+                "photo": "https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-1/p160x160/1013613_10153700881109530_1035536856117891763_n.jpg?_nc_cat=106&oh=21ecca1c8f38840d121060c28408b568&oe=5C2C81C5",
+                "nickname": "marianito",
+                "phone": "600-000-007",
+                "site": "www.marianogonzales.com",
+                "email": "marianogonzales@gmail.com"
+            }
+      },   
+                                                                            {
+
+            "name": "sergio ramos",
+            "age": "28",
+            "role": "developer java",
+            "team": "red",
+            "seniority": "3",
+            "contact_info": {
+                "photo": "https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-1/p160x160/42356068_2159281880748459_887491722555162624_n.jpg?_nc_cat=101&oh=8c1e47da8fb2b726c97d5bfde9b641fd&oe=5C1D8CDC",
+                "nickname": "sergi web",
+                "phone": "670-444-007",
+                "site": "www.sergioramos.com",
+                "email": "sergioramos@gmail.com"
+            }
+      }, 
+                                                                                    {
+
+            "name": "francisco maria",
+            "age": "26",
+            "role": "developer java",
+            "team": "white",
+            "seniority": "3",
+            "contact_info": {
+                "photo": "https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-1/p160x160/16427530_1407952242548100_3740654507447523245_n.jpg?_nc_cat=107&oh=43c9aad013bb760c8df78594d0e17a6b&oe=5C27071A",
+                "nickname": "francisco m",
+                "phone": "670-444-007",
+                "site": "www.franciscomaria.com",
+                "email": "franciscomaria@gmail.com"
+            }
+      }
+ 
+    ]
+}
+
